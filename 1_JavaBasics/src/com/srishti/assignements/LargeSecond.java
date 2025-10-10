@@ -1,4 +1,4 @@
-package com.srishti.basic;
+package com.srishti.assignements;
 
 import java.util.Arrays;
 
