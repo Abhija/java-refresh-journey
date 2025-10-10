@@ -1,4 +1,4 @@
-package com.srishti.basic;
+package com.srishti.assignements;
 
 public class Sum {
 	// Print the sum and avg of all digits in array - Sum.java
