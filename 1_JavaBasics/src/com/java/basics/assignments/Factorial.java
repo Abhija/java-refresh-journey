@@ -1,4 +1,4 @@
-package com.srishti.assignements;
+package com.java.basics.assignments;
 
 public class Factorial {
 	

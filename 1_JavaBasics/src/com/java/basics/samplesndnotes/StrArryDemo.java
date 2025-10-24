@@ -1,4 +1,4 @@
-package com.srishti.training;
+package com.java.basics.samplesndnotes;
 
 public class StrArryDemo {
 

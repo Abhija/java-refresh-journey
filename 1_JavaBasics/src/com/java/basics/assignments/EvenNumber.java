@@ -1,4 +1,4 @@
-package com.srishti.assignements;
+package com.java.basics.assignments;
 
 public class EvenNumber {
 	// even numbers up to 20

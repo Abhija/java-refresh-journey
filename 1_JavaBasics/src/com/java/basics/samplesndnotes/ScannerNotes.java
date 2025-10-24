@@ -1,4 +1,4 @@
-package com.srishti.training;
+package com.java.basics.samplesndnotes;
 
 import java.util.Scanner;
 
@@ -6,20 +6,25 @@ public class ScannerNotes {
 
 	public static void main(String[] args) {
 		// This is to read from the console
-		Scanner scanner = new Scanner(System.in);
-		System.out.println("Enter the name");
-		String name = scanner.next();
-		System.out.println("Name is" + name.toUpperCase());
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name");
+		String name = sc.nextLine();
+		System.out.println("Name " + name.toUpperCase());
 
-		System.out.print("Enter your age: ");
-		int age = scanner.nextInt();
-		System.out.println("Age is" + age);
+		System.out.println("Enter id");
+		int empId = sc.nextInt();
+		System.out.println("Id " + empId);
+		sc.nextLine();
 
-		System.out.print("Enter your city: ");
-		String city = scanner.next();
+		System.out.println("Enter City");
+		String city = sc.nextLine();
+		System.out.println("City " + city);
 
-		// Close the scanner to release system resources
-		scanner.close();
+		System.out.println("Enter salary");
+		double salary = sc.nextDouble();
+		System.out.println("Salary " + salary);
+
+		sc.close();
 
 		// Delimiter is space
 		// If we add enter, each will be called one by one
