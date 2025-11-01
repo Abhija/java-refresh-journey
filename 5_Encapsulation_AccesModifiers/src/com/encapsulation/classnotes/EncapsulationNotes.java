@@ -4,6 +4,14 @@ package com.encapsulation.classnotes;
 
 public class EncapsulationNotes {
 	
+	private  final int variable;
+
+	public EncapsulationNotes(int variable) {
+		super();
+		this.variable = variable;
+	}
+	
+	
 	
 	//Access modifier , missed points learn
 	//What are allowed for class, method, instance variable, local variabl
